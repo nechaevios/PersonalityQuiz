@@ -18,7 +18,7 @@ class ResultViewController: UIViewController {
         super.viewDidLoad()
         
         calculateBestMatch()
-        navigationItem.setHidesBackButton(true, animated: false)
+        navigationItem.hidesBackButton = true
     }
     
     private func calculateBestMatch() {
